@@ -1,0 +1,26 @@
+{
+  "name": "alphanet-7702",
+  "version": "1.0.0",
+  "description": "",
+  "exports": "./index.js",
+  "scripts": {
+    "start": "tsx main.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "tsx": "^4.7.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.4",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.3",
+    "viem": "^2.19.6"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
